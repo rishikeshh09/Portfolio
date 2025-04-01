@@ -1,0 +1,12 @@
+Placeholder Images Required:
+
+1. profile-placeholder.jpg - A professional headshot or avatar (recommended size: 500x500px)
+2. about-placeholder.jpg - A professional image for the About section (recommended size: 600x800px)
+3. project1-placeholder.jpg - Project 1 thumbnail (recommended size: 600x400px)
+4. project2-placeholder.jpg - Project 2 thumbnail (recommended size: 600x400px)
+5. project3-placeholder.jpg - Project 3 thumbnail (recommended size: 600x400px)
+6. testimonial1-placeholder.jpg - Client/colleague photo (recommended size: 100x100px)
+7. testimonial2-placeholder.jpg - Client/colleague photo (recommended size: 100x100px)
+8. testimonial3-placeholder.jpg - Client/colleague photo (recommended size: 100x100px)
+
+Note: Replace these placeholder images with your own actual images when deploying the website. 

@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional portfolio showcasing projects, skills, and experience">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>
+        emailjs.init("iBCPeq4vo0OEJBNkp");
+    </script>
+</head>
+<body class="light-mode">
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="#home">Portfolio</a>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="theme-toggle">
+                    <i class="fas fa-sun"></i>
+                    <i class="fas fa-moon"></i>
+                </div>
+                <div class="mobile-menu">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1 class="name">Hello, I'm <span class="highlight">Rishikesh Mishra</span></h1>
+                        <h2 class="profession">Software Developer | Cloud & DevOps Learner</h2>
+                        <p class="tagline">Passionate About Cloud, DevOps, and Automation—Building Scalable and Reliable, Softwares</p>
+                        <div class="cta-buttons">
+                            <a href="#projects" class="btn primary-btn">View My Projects</a>
+                            <a href="#contact" class="btn secondary-btn">Contact Me</a>
+                        </div>
+                        <div class="social-icons">
+                            <a href="https://github.com/rishikeshh09" class="social-icon"><i class="fab fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/rishikesh09/" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://x.com/rishikeshh09" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <div class="profile-image-container">
+                            <img src="public/images/download.png" alt="Profile Picture" class="profile-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3>Who am I?</h3>
+                        <p>Hi, I'm Rishikesh Mishra, Currently pursuing my B.Tech 3-rd year in Computer Science at CMR Technical Campus, Hyderabad, I thrive on solving complex problems through technology.</p>
+                        <p>With a strong foundation in Cloud Computing, DevOps, and Software Development. I am constantly learning and expanding my skill set to stay current with the latest technologies and best practices.</p>
+                        <p>When I'm not coding, you can find me exploring new technologies and contributing to open-source projects.</p>
+                        <div class="personal-info">
+                            <div class="info-item">
+                                <span class="info-title">Name:</span>
+                                <span class="info-value">Rishikesh Mishra</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-title">Email:</span>
+                                <span class="info-value">rishhh009@gmail.com</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-title">Location:</span>
+                                <span class="info-value">Hyderabad</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-title">Contact:</span>
+                                <span class="info-value">+91-9341305867</span>
+                            </div>
+                        </div>
+                        <a href="public/resume/resume.pdf" download class="btn primary-btn">Download Resume</a>
+                    </div>
+                    <div class="achievements">
+                        <h3>My Achievements</h3>
+                        <div class="achievements-grid">
+                            <div class="achievement-card">
+                                <div class="achievement-icon">
+                                    <i class="fas fa-trophy"></i>
+                                </div>
+                                <div class="achievement-content">
+                                    <h4> Cloud Achievements</h4>
+                                    <p>25+ Badges on CloudSkillsBoost.Google</p>
+                                </div>
+                            </div>
+                            <div class="achievement-card">
+                                <div class="achievement-icon">
+                                    <i class="fas fa-certificate"></i>
+                                </div>
+                                <div class="achievement-content">
+                                    <h4>Certifications</h4>
+                                    <p>5+ Certificates from Infosys Springboard</p>
+                                </div>
+                            </div>
+                            <div class="achievement-card">
+                                <div class="achievement-icon">
+                                    <i class="fas fa-award"></i>
+                                </div>
+                                <div class="achievement-content">
+                                    <h4>Competitive Programming</h4>
+                                    <p>LeetCode Rating: 1500+ <br> CodeChef Rating: 1300+</p>
+                                </div>
+                            </div>
+                            <div class="achievement-card">
+                                <div class="achievement-icon">
+                                    <i class="fas fa-award"></i>
+                                </div>
+                                <div class="achievement-content">
+                                    <h4> Leadership & Discipline</h4>
+                                    <p>Completed NCC B Certificate</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2 class="section-title">My Projects</h2>
+                <div class="project-filter">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="web">Web Development</button>
+                    <button class="filter-btn" data-filter="DevOps">DevOps</button>
+                    <button class="filter-btn" data-filter="Java">Java</button>
+                </div>
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card" data-category="web">
+                        <div class="project-image">
+                            <img src="public/images/project1-placeholder.jpg" alt="Project 1">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link"><i class="fas fa-link"></i></a>
+                                    <a href="#" class="project-github"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">Spotify (clone)</h3>
+                            <p class="project-description">This is a brief description of the project. It includes the technologies used and the problem it solves.</p>
+                            <div class="project-tags">
+                                <span class="tag">HTML</span>
+                                <span class="tag">CSS</span>
+                                <span class="tag">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 2 -->
+                    <div class="project-card" data-category="DevOps">
+                        <div class="project-image">
+                            <img src="public/images/budjetTracker.jpg" alt="Project 2">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link"><i class="fas fa-link"></i></a>
+                                    <a href="#" class="project-github"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">Advance Budjet Tracker</h3>
+                            <p class="project-description">This is a brief description of the project. It includes the technologies used and the problem it solves.</p>
+                            <div class="project-tags">
+                                <span class="tag">React</span>
+                                <span class="tag">Node.js</span>
+                                <span class="tag">MongoDB</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 3 -->
+                    <div class="project-card" data-category="web">
+                        <div class="project-image">
+                            <img src="public/images/project2-placeholder2.jpg" alt="Project 3">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link"><i class="fas fa-link"></i></a>
+                                    <a href="#" class="project-github"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">Amazon - Database </h3>
+                            <p class="project-description">This is a brief description of the project. It includes the technologies used and the problem it solves.</p>
+                            <div class="project-tags">
+                                <span class="tag">Figma</span>
+                                <span class="tag">UI/UX</span>
+                                <span class="tag">Wireframing</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 4 -->
+                    <div class="project-card" data-category="Java">
+                        <div class="project-image">
+                            <img src="public/images/ballBlitz.jpg" alt="Project 3">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link"><i class="fas fa-link"></i></a>
+                                    <a href="#" class="project-github"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">Ball Blitz</h3>
+                            <p class="project-description">This is a brief description of the project. It includes the technologies used and the problem it solves.</p>
+                            <div class="project-tags">
+                                <span class="tag">Figma</span>
+                                <span class="tag">UI/UX</span>
+                                <span class="tag">Wireframing</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 5 -->
+                    <div class="project-card" data-category="all">
+                        <div class="project-image">
+                            <img src="public/images/keyLogger.jpg" alt="Project 3">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link"><i class="fas fa-link"></i></a>
+                                    <a href="#" class="project-github"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">Key Logger</h3>
+                            <p class="project-description">This is a brief description of the project. It includes the technologies used and the problem it solves.</p>
+                            <div class="project-tags">
+                                <span class="tag">Figma</span>
+                                <span class="tag">UI/UX</span>
+                                <span class="tag">Wireframing</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2 class="section-title">Skills & Technologies</h2>
+                <div class="skills-content">
+                    <div class="technical-skills">
+                        <h3>Technical Skills</h3>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-html5"></i>
+                                </div>
+                                <h4>HTML5</h4>
+                                <div class="skill-progress">
+                                    <div class="progress-bar" style="width: 90%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-css3-alt"></i>
+                                </div>
+                                <h4>CSS3</h4>
+                                <div class="skill-progress">
+                                    <div class="progress-bar" style="width: 85%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-js"></i>
+                                </div>
+                                <h4>JavaScript</h4>
+                                <div class="skill-progress">
+                                    <div class="progress-bar" style="width: 80%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-react"></i>
+                                </div>
+                                <h4>React</h4>
+                                <div class="skill-progress">
+                                    <div class="progress-bar" style="width: 75%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-node-js"></i>
+                                </div>
+                                <h4>Node.js</h4>
+                                <div class="skill-progress">
+                                    <div class="progress-bar" style="width: 70%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-git-alt"></i>
+                                </div>
+                                <h4>Git</h4>
+                                <div class="skill-progress">
+                                    <div class="progress-bar" style="width: 85%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="soft-skills">
+                        <h3>Soft Skills</h3>
+                        <ul class="soft-skills-list">
+                            <li><i class="fas fa-check-circle"></i> Problem Solving</li>
+                            <li><i class="fas fa-check-circle"></i> Communication</li>
+                            <li><i class="fas fa-check-circle"></i> Teamwork</li>
+                            <li><i class="fas fa-check-circle"></i> Time Management</li>
+                            <li><i class="fas fa-check-circle"></i> Adaptability</li>
+                            <li><i class="fas fa-check-circle"></i> Attention to Detail</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-card">
+                            <div class="card-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="card-content">
+                                <h3>Email</h3>
+                                <p>rishhh009@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-card">
+                            <div class="card-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="card-content">
+                                <h3>Phone</h3>
+                                <p>+91-9341305867</p>
+                            </div>
+                        </div>
+                        <div class="contact-card">
+                            <div class="card-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="card-content">
+                                <h3>Location</h3>
+                                <p>Hyderabad</p>
+                            </div>
+                        </div>
+                        <div class="social-links">
+                            <a href="https://github.com/rishikeshh09" class="social-link"><i class="fab fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/rishikesh09/" class="social-link"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://x.com/rishikeshh09" class="social-link"><i class="fab fa-twitter"></i></a>
+                            <!-- <a href="mailto:rishhh009@gmail.com" class="social-link"><i class="fab fa-google"></i></a> -->
+                            <!-- <a href="#" class="social-link"><i class="fab fa-instagram"></i></a> -->
+                        </div>
+                    </div>
+                    <div class="contact-form-container">
+                        <form id="contact-form" class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" name="subject" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn primary-btn">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#home">Portfolio</a>
+                </div>
+                <div class="footer-links">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <a href="https://github.com/rishikeshh09" class="social-icon"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/rishikesh09/" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://x.com/rishikeshh09" class="social-icon"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="year"></span> Rishikesh Mishra(This portfolio is made by me, pls avoid copying src code) All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#home" class="scroll-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script src="js/main.js"></script>
+</body>
+</html> 
