@@ -931,10 +931,16 @@ footer {
         transform: rotate(-45deg) translate(5px, -5px);
     }
     
+    .hero {
+        height: auto;
+        min-height: 100vh;
+        padding-bottom: 30px;
+    }
+    
     .hero-content {
-        flex-direction: column;
+        grid-template-columns: 1fr;
         text-align: center;
-        gap: 40px;
+        gap: 30px;
     }
     
     .hero-text {
@@ -942,7 +948,20 @@ footer {
     }
     
     .hero-image {
-        order: 1;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        max-width: 350px;
+    }
+    
+    .profile-image-container {
+        width: 70%;
+        max-width: 300px;
+        margin-top: 20px;
+    }
+    
+    .social-icons {
+        justify-content: center;
     }
     
     .about-content {
@@ -956,6 +975,25 @@ footer {
     
     .skills-grid {
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+    
+    .hero-text h1 {
+        font-size: calc(var(--fs-xxl) * 0.9);
+        line-height: 1.3;
+    }
+    
+    .hero-text h2 {
+        font-size: calc(var(--fs-lg) * 0.95);
+    }
+    
+    .hero-text p {
+        max-width: 550px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .hero-text .tagline {
+        font-size: 0.95rem;
     }
 }
 
@@ -975,21 +1013,107 @@ footer {
         width: var(--container-width-sm);
     }
     
+    .hero {
+        height: auto;
+        min-height: 100vh;
+        padding-top: 100px;
+        padding-bottom: 40px;
+    }
+    
+    .hero-content {
+        gap: 30px;
+    }
+    
     .hero-text h1 {
-        font-size: var(--fs-xxl);
+        font-size: 2.2rem;
+        margin-top: 10px;
+        margin-bottom: 15px;
     }
     
     .hero-text h2 {
-        font-size: var(--fs-xl);
+        font-size: 1.3rem;
+        margin-bottom: 12px;
+    }
+    
+    .hero-text p {
+        font-size: 0.9rem;
+        margin-bottom: 20px;
+        line-height: 1.5;
     }
     
     .cta-buttons {
         flex-direction: column;
         gap: 15px;
+        width: 100%;
     }
     
     .btn {
         width: 100%;
         text-align: center;
+        padding: 10px 20px;
+    }
+    
+    .social-icons {
+        gap: 15px;
+        margin-top: 10px;
+    }
+    
+    .social-icon {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .profile-image-container {
+        width: 85%;
+        max-width: 250px;
+        margin-top: 20px;
+    }
+    
+    .hero-image {
+        max-width: 280px;
+    }
+}
+
+/* Additional smaller phone styles */
+@media screen and (max-width: 360px) {
+    .hero-text h1 {
+        font-size: 1.9rem;
+    }
+    
+    .hero-text h2 {
+        font-size: 1.1rem;
+    }
+    
+    .hero-text p {
+        font-size: 0.85rem;
+    }
+    
+    .profile-image-container {
+        width: 90%;
+        max-width: 200px;
+    }
+}
+
+/* Fix potential overflow issues on narrow screens */
+@media screen and (max-width: 320px) {
+    .hero-text h1 {
+        font-size: 1.7rem;
+    }
+    
+    .hero-text h2 {
+        font-size: 1rem;
+    }
+    
+    .hero-text p {
+        font-size: 0.8rem;
+    }
+    
+    .profile-image-container {
+        max-width: 180px;
+    }
+    
+    .social-icon {
+        width: 35px;
+        height: 35px;
     }
 } 
